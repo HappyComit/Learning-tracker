@@ -1,0 +1,52 @@
+:root {
+  --bg: #efe6d7;
+  --surface: #fffaf4;
+  --surface-2: #f5eee4;
+  --surface-3: #e8dcc8;
+  --border: #d7c9b5;
+  --text: #231913;
+  --muted: #66584d;
+  --accent: #175d63;
+  --accent-strong: #123f43;
+  --accent-soft: #d8ece9;
+  --danger: #a84d3b;
+  --warning: #9a6a17;
+
+  font-family: "Trebuchet MS", "Verdana", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
